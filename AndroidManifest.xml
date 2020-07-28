@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.netcampproject">
+
+    <uses-feature android:name="android.hardware.Camera" android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/diya"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".third" />
+        <activity android:name=".fourth" />
+        <activity android:name=".fifth" />
+        <activity android:name=".sixth" />
+        <activity android:name=".seventh" />
+        <activity android:name=".eightth" />
+        <activity android:name=".ninth" />
+        <activity android:name=".tenth" />
+        <activity android:name=".eleventh" />
+        <activity android:name=".twelth" />
+        <activity android:name=".thirteenth" />
+        <activity android:name=".fourteenth"></activity>
+    </application>
+
+</manifest>

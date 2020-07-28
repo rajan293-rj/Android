@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.netcampproject.ninth"
+    android:background="#d3ade7">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="BACK"
+        android:id="@+id/button18"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ctrl+v is used to"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/button18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#fbb0b0" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cut"
+            android:id="@+id/radioButton"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy"
+            android:id="@+id/radioButton2"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="paste"
+            android:id="@+id/radioButton3"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="print"
+            android:id="@+id/radioButton4"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button19"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
